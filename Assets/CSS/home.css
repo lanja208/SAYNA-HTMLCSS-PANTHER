@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Panthera';
+    src: url('../../../font/panthera.woff') format('woff'), url('../../../font/panthera.woff2') format('woff2'),
+  }
+
+  @font-face {
+    font-family: 'Beyno';
+    src: url('../../../font/beyno-regular.woff') format('woff'),  url('../../../font/beyno-regular.woff2') format('woff2'),
+  }
+  
+  @font-face {
+    font-family: 'cantarell';
+    src: url('../../../font/cantarell-regular.woff') format('woff'),   url('../../../font/cantarell-regular.woff2') format('woff2')
+  }
+  
+  @font-face {
+    font-family: 'Wakanda forever';
+    src: url('../../../font/wakanda-forever-regular.woff') format('woff'), url('../../../font/wakanda-forever-regular.woff2') format('woff2'),
+  }
+    
+  /*------mise en forme du contenu pricipal-----*/
+h1{
+    font-family: 'Panthera' ;
+    font-size: 25px;
+    padding: 10px;
+    color: #9E91B7 ;
+  }
+  h2{
+    font-family:'Beyno' ;
+    padding: 10px 0;
+    color: #9E91B7 ;
+  }
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img{
+    width: 120%;
+}
+
+.ennonce{
+    width: 95%;
+}
+
+.perso {
+    display: flex;
+    justify-content: space-between; /* Aligne les éléments sur l'axe horizontal */
+    align-items: center; /* Centre verticalement les éléments */
+    
+}
+
+.character{
+    display: flex;
+    justify-content: space-between; /* Aligne les éléments sur l'axe horizontal */
+    align-items: center; /* Centre verticalement les éléments */
+}
+
+.character img{
+    width: 250px;
+}
+
+.last-img {
+    width: 50px;
+}
+
+

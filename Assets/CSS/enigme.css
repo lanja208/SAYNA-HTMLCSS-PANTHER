@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Beyno';
+  src: url('../../../font/beyno-regular.woff') format('woff'),  url('../../../font/beyno-regular.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'cantarell';
+  src: url('../../../font/cantarell-regular.woff') format('woff'),   url('../../../font/cantarell-regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Wakanda forever';
+  src: url('../../../font/wakanda-forever-regular.woff') format('woff'), url('../../../font/wakanda-forever-regular.woff2') format('woff2'),
+}

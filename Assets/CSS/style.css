@@ -1,3 +1,20 @@
+
+@font-face {
+  font-family: 'Beyno';
+  src: url('../../../font/beyno-regular.woff') format('woff'),  url('../../../font/beyno-regular.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Beyno';
+  src: url('../../../font/cantarell-regular.woff') format('woff'),   url('../../../font/cantarell-regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Beyno';
+  src: url('../../../font/wakanda-forever-regular.woff') format('woff'), url('../../../font/wakanda-forever-regular.woff2') format('woff2'),
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +24,8 @@
 body {
     background-image: url(../Illustrations-Logo/All/arrière_plan.png);
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'Cantarell',sans-serif;
+    font-size: 16px;
 }
 
 /*------mise en forme de la barre de navigation-----*/
@@ -50,7 +68,6 @@ nav ul li a {
     align-items: center; 
   }
   
-
 /*------mise en forme du footer-----*/
 footer{
     background-image: url(../Illustrations-Logo/All/back_footer.png);
