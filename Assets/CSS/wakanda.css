@@ -12,3 +12,11 @@
   font-family: 'Wakanda forever';
   src: url('../../../font/wakanda-forever-regular.woff') format('woff'), url('../../../font/wakanda-forever-regular.woff2') format('woff2'),
 }
+
+.wakanda {
+  background-image: url(../Illustrations-Logo/Wakanda/Pantherwakanda1.png);
+  height: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
