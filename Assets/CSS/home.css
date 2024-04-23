@@ -34,6 +34,7 @@ h1{
   .container{
     width: 80%;
     margin: 0 auto;
+    
   }
 
 .header{
@@ -47,28 +48,119 @@ h1{
 }
 
 .ennonce{
-    width: 95%;
+    width: 70%;
 }
 
 .perso {
     display: flex;
     justify-content: space-between; /* Aligne les éléments sur l'axe horizontal */
     align-items: center; /* Centre verticalement les éléments */
-    
+    background-color: #021740;
+    width: 95%;
+    height: 230px;
+   margin-left: 110px;
+   margin-bottom: 70px;
 }
 
-.character{
+.character {
     display: flex;
     justify-content: space-between; /* Aligne les éléments sur l'axe horizontal */
     align-items: center; /* Centre verticalement les éléments */
+    gap: 20px;
+    width: 100%;
+    margin-left: 20px;
+    
 }
 
 .character img{
-    width: 250px;
+  width: 200px;
+  height: 100%;
 }
 
-.last-img {
-    width: 50px;
+.character .perso-img1 img{
+  width: 250px;
 }
+.character .text{
+  width: 50%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.perso .last-img img{
+width: 147px;
+}
+
+.perso-img2 img, .last-img img{
+  padding-top: 5px;
+}
+
+.perso a{
+  color: #fff;
+}
+
+
+.col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+
+
+aside{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+aside img{
+  position: relative;
+  bottom: 20px;
+  z-index: 2;
+}
+
+.containt{
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 620px;
+  width: 420px;
+  position: relative;
+  bottom: 170px;
+  line-height: 33px;
+  padding-left: 30px;
+  border-radius: 15px;
+}
+
+
+.containt h3{
+  text-align: center;
+  padding-right: 26px;
+}
+
+.containt ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: normal;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.containt ul li{
+  background-color: #3D2DA6;
+  padding: 5px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.containt p{
+  padding-left:28px
+}
+
+
 
 

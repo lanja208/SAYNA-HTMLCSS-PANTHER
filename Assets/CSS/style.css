@@ -25,7 +25,8 @@ body {
     background-image: url(../Illustrations-Logo/All/arrière_plan.png);
     color: #fff;
     font-family: 'Cantarell',sans-serif;
-    font-size: 16px;
+    font-size: 15px;
+  overflow-x: hidden;
 }
 
 /*------mise en forme de la barre de navigation-----*/
