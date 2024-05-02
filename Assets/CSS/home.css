@@ -162,5 +162,34 @@ aside img{
 }
 
 
+.form {
+  background-image: url(../Illustrations-Logo/Accueil/Pantherhome7.png);
+
+  background-size: cover;
+width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact{
+  width: 50%;
+  margin: 0 auto;
+  background-image:  linear-gradient(to bottom ,rgb(255,255,255) 25%,rgba(242, 206, 242,0.3) 71%,rgba(223, 153, 242,0.1) 100%);
+ padding: 100px; 
+  border-radius: 103px;
+  text-align: center;
+}
+#contact .formulaire {
+  width: 50%;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.title h2{
+  text-align: center;
+  font-family: 'Cantarell';
+  color: #010101;
+}
+
 
 
