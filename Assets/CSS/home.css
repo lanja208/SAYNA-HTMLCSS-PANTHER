@@ -170,10 +170,12 @@ width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 62px 0;
 }
 #contact{
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 55px;
   background-image:  linear-gradient(to bottom ,rgb(255,255,255) 25%,rgba(242, 206, 242,0.3) 71%,rgba(223, 153, 242,0.1) 100%);
  padding: 100px; 
   border-radius: 103px;
