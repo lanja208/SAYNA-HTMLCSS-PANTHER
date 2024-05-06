@@ -191,5 +191,49 @@ width:100%;
   color: #010101;
 }
 
+label{
+  display: none;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#nom, #email {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 38px;
+    width: 420px;
+    height: 56px;
+    margin-top: 20px;
+    padding: 15px;
+  }
+  textarea {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 38px;
+    width: 420px;
+    margin-top: 20px;
+    padding: 15px
+  }
+
+  input::placeholder {
+    color: black;
+}
+
+textarea::placeholder {
+  color: black;
+}
+
+button {
+  margin-top: 20px;
+  width: 174px; 
+  height : 54px;
+  border: none;
+  border-radius : 38px;
+  background-color: #F2CEF2;
+}
 
 
