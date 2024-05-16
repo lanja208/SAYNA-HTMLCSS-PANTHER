@@ -12,3 +12,44 @@
   font-family: 'Wakanda forever';
   src: url('../../../font/wakanda-forever-regular.woff') format('woff'), url('../../../font/wakanda-forever-regular.woff2') format('woff2'),
 }
+/*--------redimensionne la taille de l'image pantherenigme1---------*/
+.okoye img{
+  width: 700px;
+  position: relative;
+  bottom: 110px;
+
+width: 100%;
+
+}
+.okoye{
+  width: 50%;
+}
+
+/*----------mise en forme de la premiere section-----------*/
+h1{
+  font-family: 'Beyno';
+  font-size: 36px;
+}
+
+.titre{
+  display: flex;
+  flex-direction: column ;
+  gap: 50px;
+  width: 45%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.titre p{
+  background-image: url(../Illustrations-Logo/Enigme/Pantherenigme2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  font-family: 'wakanda forever';
+}
