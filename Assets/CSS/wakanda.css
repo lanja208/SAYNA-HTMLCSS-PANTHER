@@ -13,9 +13,12 @@
   src: url('../../../font/wakanda-forever-regular.woff') format('woff'), url('../../../font/wakanda-forever-regular.woff2') format('woff2'),
 }
 
-#entete {
-  background-image: url(../Illustrations-Logo/Wakanda/Pantherwakanda1.png);
-  background-size: cover;
-  height: 100vh;
-  margin-top: 100px;
+*{
+  margin: 0;
+  padding: 0
+}
+.headerimg img{
+  position: relative;
+  
+  width: 100vw;
 }

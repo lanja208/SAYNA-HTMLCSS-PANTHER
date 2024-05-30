@@ -40,11 +40,21 @@ h1{
   padding: 40px;
 }
 
-.titre p{
-  background-image: url(../Illustrations-Logo/Enigme/Pantherenigme2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.titre .para {
+  width: 200px;
 }
+
+.para p{
+  font-size: 10px;
+}
+
+  .sphere img {
+    position: absolute;
+    right: 80px;
+    top: 300px;
+    width: 550px;
+}
+
 .first-sec{
   display: flex;
   align-items: center;
