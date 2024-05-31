@@ -17,21 +17,19 @@
   margin: 0;
   padding: 0
 }
-
+/*--------mise en forme de l'entete-------*/
 #entete{
   width: auto;
-
-}
-.headerimg img{
-  position: relative;
-  right: 75px;
-  bottom: 295px;
-  width: 108vw;
 }
 
-.titre ,.descri{
-  position: relative;
-  z-index: 30;
+
+.wakanda{
+  background-image: url(../Illustrations-Logo/Wakanda/Pantherwakanda1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  padding-left: 100px;
+  
 }
 
 h1,h2{
@@ -40,12 +38,13 @@ h1,h2{
 }
 
 h1{
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .titre h2{
   font-family: 'wakanda forever';
   font-size: 40px;
+  padding-top: 20px;
 }
 
 .head{
@@ -55,114 +54,36 @@ h1{
 
 .head .descri p{
   width: 30%;
+  padding-top: 20px;
+}
+
+/*------------mise en forme de la deuxieme section-------*/
+
+#sect2{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  padding-top: 40px;
+}
+
+#sect2 video{
+  width: 500px;
+  height: 250px;
+}
+
+#sect2 img{
+  width: 500px;
+}
+
+#sect2 h2{
+  margin-bottom: 0;
+}
+
+#sect2 p{
+  margin-top: 0;
 }
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background-image: url(../Illustrations-Logo/All/arrière_plan.png);
-  color: #fff;
-  font-family: 'Cantarell',sans-serif;
-  font-size: 15px;
-overflow-x: hidden;
-}
-
-/*------mise en forme de la barre de navigation-----*/
-
-nav{
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 0;
-  top: 0;
-  font-family: 'beyno';
-
-}
-nav ul {
-  list-style-type: none;
-  display: flex;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: var(--white);
-  text-decoration: none;
-}
-
-.nav-link {
-  margin: 0 45px;
-}
-
-.logo {
-  margin : 0 45px;
-}
-
-.logo img:nth-child(2) { 
-  transform: translateY(-50%); 
-}
-
-.logo, .nav-link {
-  display: flex;
-  align-items: center; 
-}
-
-/*------mise en forme du footer-----*/
-footer{
-  background-image: url(../Illustrations-Logo/All/back_footer.png);
-  background-size: cover;
-}
-
-.image-footer img:first-child { 
-  width: 15%;
-  position: relative;
-  top: 63px;
-  left: 18%;
-  padding-top: 38px;
-  z-index: 1; 
-}
-
-.image-footer img:nth-child(2) {
-  position: relative;
-  width: 8%;
-  bottom: 48px;
-  left: 6%;
-  z-index: 2;
-}
-
-.link {
-  display: flex; 
-  width: 50%;
-  gap: 50px;
-  position: relative;
-  bottom: 100px;
-  left: 50%;
-}
-.link h3 {
-  padding: 15px;
-}
-
-.rs a img{
-  width: 17%;
-  padding-left: 14px;
-}
-
-.page{
-  width: 23%;
-}
-.page a{
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-span {
-  text-transform: uppercase;
-}
