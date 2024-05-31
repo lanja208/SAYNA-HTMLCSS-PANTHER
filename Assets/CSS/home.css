@@ -58,7 +58,7 @@ h1{
     background-color: #021740;
     width: 95%;
     height: 230px;
-   margin-left: 110px;
+   margin-left: 66px;
    margin-bottom: 70px;
 }
 
@@ -78,13 +78,17 @@ h1{
 }
 
 .character .perso-img1 img{
-  width: 250px;
+  width: 199px;
+  position: relative;
+  top: 2px;
 }
 .character .text{
   width: 50%;
   height: 200px;
   margin-bottom: 30px;
 }
+
+
 
 .perso .last-img img{
 width: 147px;
@@ -170,7 +174,7 @@ width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 62px 0;
+  margin: 160px 0;
 }
 #contact{
   width: 50%;
