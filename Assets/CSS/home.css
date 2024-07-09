@@ -43,6 +43,40 @@ h1{
     align-items: center;
 }
 
+.line-container{
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  left: 13px;
+  top:0 ;
+}
+.vertical-line::after {
+  content: '';
+  display: block;
+  border-left: 3px solid#9E91B7 ;
+  height: 450px;
+}
+
+.vertical-line2 {
+  border-left: 3px solid #9E91B7 ;
+  height: 360px;
+  margin: 0 10px;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 364px;
+  left: 21px;
+}
+.social {
+  filter: invert(10%) sepia(10%) saturate(112%) hue-rotate(357deg)
+}
+
+
+
 .home-img img{
     width: 120%;
 }
