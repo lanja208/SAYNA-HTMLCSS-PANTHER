@@ -38,18 +38,23 @@ h1{
   padding: 40px;
 }
 
-.titre .para {
-  width: 200px;
-}
+
 
 .para p{
+  position: absolute;
+  top: 415px;
+  width: 300px;
+  right: 200px;
   font-size: 10px;
 }
 
+.sphere{
+  position: absolute;
+  right: 80px;
+  top: 300px;
+}
   .sphere img {
-    position: absolute;
-    right: 80px;
-    top: 300px;
+    
     width: 550px;
 }
 
@@ -58,6 +63,23 @@ h1{
   align-items: center;
   justify-content: center;
 }
+
+#question{
+  width: 80%;
+  margin: 0 auto;
+}
+.enigme-cit{
+  font-family: 'wakanda forever';
+  color:#9E91B7
+}
 span{
   font-family: 'wakanda forever';
 }
+#response{
+  background-color: transparent;
+  border:2px solid;
+  border-radius: 10px;
+  border-color: #9E91B7;
+
+}
+
