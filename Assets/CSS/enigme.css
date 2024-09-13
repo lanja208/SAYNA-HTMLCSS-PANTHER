@@ -24,10 +24,25 @@ width: 100%;
 
 
 /*----------mise en forme de la premiere section-----------*/
+
+
 h1{
   font-family: 'Beyno';
   font-size: 36px;
+  color:#9E91B7;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  position: relative;
+  width: 340px;
+  top: 200px;
+  right: 280px;
+  position: absolute;
 }
+
+.titreH1 {
+  width:200px;
+}
+
 
 .titre{
   display: flex;
@@ -64,22 +79,78 @@ h1{
   justify-content: center;
 }
 
+/*----------mise en forme de la deuxième section-----------*/
 #question{
   width: 80%;
   margin: 0 auto;
 }
-.enigme-cit{
+.enigme-cit {
   font-family: 'wakanda forever';
-  color:#9E91B7
+  color: #9E91B7;
+  width: 550px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+
+.paragraph {
+  width:  480px;;
+}
+.paragraph p {
+  padding-top: 10px;
+  font-size: 13px;
+  width: 413px;
 }
 span{
   font-family: 'wakanda forever';
 }
-#response{
-  background-color: transparent;
-  border:2px solid;
-  border-radius: 10px;
-  border-color: #9E91B7;
 
+.paragraph-2 {
+  text-align: center;
+  width: 368px;
+  font-size: 10px;
+  position: absolute;
+  right: 200px;
+  top: 960px;
+}
+
+.sphere2 {
+  position: relative;
+  left: 565px;
+  bottom: 140px;
+}
+  .sphere2 img {
+    
+    width: 550px;
+}
+
+.action{
+  position: relative;
+  bottom: 145px;
+}
+
+#response {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 26px;
+  border-color: #9E91B7;
+  padding: 8px 0 8px 20px;
+  width: 300px;
+}
+
+.submit input[type="submit"] {
+  background-color: #F2CEF2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  width: 150px;
+  position: relative;
+  left: 65px;
+}
+
+.submit input[type="submit"]:hover {
+  background-color: #45a049; /* Couleur de fond au survol */
 }
 
